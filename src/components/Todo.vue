@@ -27,7 +27,6 @@ export default {
 <style >
 .wrap {
   width: 567px;
-  /* height: 678px; */
   background-color: #fff;
   margin-top: 100px;
   margin-bottom: 100px;

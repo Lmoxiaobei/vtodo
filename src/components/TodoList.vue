@@ -1,9 +1,10 @@
 <template>
   <div class="wrap">
-   <ul>
+   <ul class="primary">
      <li>hello1</li>
      <li>hello2</li>
    </ul>
+
   </div>
 </template>
 
@@ -13,11 +14,12 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
+@import '@/styles/variables.scss';
 .wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .primary {
+    background-color: $accent-blue;
+  }
 }
 ul {
   width: 327px;
