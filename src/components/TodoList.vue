@@ -1,6 +1,9 @@
 <template>
   <div class="wrap">
-    List
+   <ul>
+     <li>hello1</li>
+     <li>hello2</li>
+   </ul>
   </div>
 </template>
 
@@ -10,8 +13,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .wrap {
-  border: 2px solid lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  width: 327px;
+  margin: 0 auto;
+}
+li {
+  font-size: 24px;
+  line-height: 60px;
 }
 </style>

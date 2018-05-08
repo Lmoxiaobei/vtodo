@@ -1,6 +1,6 @@
 <template>
   <div class="wrap">
-    番茄土豆
+    Peter
   </div>
 </template>
 
@@ -10,8 +10,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .wrap {
-  border: 2px solid lightblue;
+  margin: 0;
+  font-size: 36px;
+  line-height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
