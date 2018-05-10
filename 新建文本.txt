@@ -1,0 +1,6 @@
+打开方式  npm run serve 
+上传到了网上 github 
+同时 使用了  https://www.netlify.com/ 网站的技术 可以直接展示页面 不需要 index.html也可以展示
+
+
+网上的打开网址是       https://gifted-murdock-f978e0.netlify.com
