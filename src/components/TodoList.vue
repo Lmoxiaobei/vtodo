@@ -45,9 +45,24 @@ ul {
 li {
   font-size: 24px;
   line-height: 60px;
+  list-style: none;
+  position: relative;
+  line-height: 1.9;
+  margin-bottom: 5px;
 }
 li.done {
   color: lighten(#000, 50%);
   text-decoration: line-through;
+  &::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-image: url('../assets/right.svg');
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
 }
 </style>
